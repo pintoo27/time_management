@@ -95,14 +95,11 @@ View all trainers and their schedules
 7. 🔁 API Endpoints / Architecture
 🔑 PHP Files (Endpoints / Logic)
 File	Purpose
-register_trainer.php	Handles trainer signup & email token generation
-verify.php	Activates account via token
-login.php	Trainer login logic
-create_session.php	Saves session (recurring & one-time)
-
-update_session.php	Edits existing session
-email_reminder.php	Sends email notification before session
-reset_password.php	Resets trainer password via email link
+register_trainer.php	Handles trainer signup & email token generation--
+login.php	        Trainer login logic--
+create_session.php	Saves session (recurring & one-time)--
+email_reminder.php	Sends email notification before session--
+reset_password.php	Resets trainer password via email link--
 
 📊 Architecture:
 plaintext
