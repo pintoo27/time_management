@@ -20,6 +20,7 @@ Members:
 Frontend	HTML, CSS, JavaScript, FullCalendar.js
 Backend	        PHP
 Database	     MySQL
+databse interfacr :- phpmyadmin
 Email System	PHPMailer
 Local Server	XAMPP
 ----------------------------------------------------------------------------
@@ -38,32 +39,31 @@ Track status (Missed, Started, Ended)
 
 Receive email reminders for upcoming sessions
 
-Admins can:
+
+-->Admins can:-
 
 View all trainers’ sessions
 
 monitor calendar entries
 
-The system uses smart tagging, status coloring, and session history logging for complete trainer productivity analysis.
+The system uses smart tagging, status coloring ,for complete trainer productivity analysis.
 -------------------------------------------------------------------------------
 5. ⚙️ Setup Instructions
+
+
+
 Prerequisites:
-XAMPP installed (Apache + MySQL)
+- XAMPP installed (Apache + MySQL)
+- Composer (for PHPMailer installation)
 
-Composer (for PHPMailer installation)
-
-
-
-
-Import the Database:
-
-Open phpMyAdmin
-
-Create database: project1
-
-Import project.sql file from the project folder
-
-Configure Database in Code:
+Steps:
+1. Clone or move this project folder into `htdocs`:
+   Example: `xampp/htdocs/project1/`
+2. Start Apache and MySQL using XAMPP.
+3. Open phpMyAdmin in your browser.
+4. Create a new database: `project`
+5. Import the `project.sql` file from the project folder.
+6. Configure database connection inside `db_conn.php`.
 
 
 
@@ -100,14 +100,11 @@ login.php	        Trainer login logic--
 create_session.php	Saves session (recurring & one-time)--
 email_reminder.php	Sends email notification before session--
 reset_password.php	Resets trainer password via email link--
-
+-----------------------------------------------------------------------
 📊 Architecture:
-plaintext
-Copy
-Edit
-Frontend (HTML/JS/FullCalendar)
-    ⬇️ AJAX
-Backend (PHP Scripts)
-    ↔️ MySQL (trainer, sessions, admin)
+
+Frontend (HTML/JS/FullCalendar)  
+Backend (PHP Scripts)  
+  ↔️ MySQL (trainer, sessions, admin)  
 PHPMailer → SMTP → Email
 ----------------------------------------------------------------------
