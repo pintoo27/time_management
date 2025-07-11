@@ -14,15 +14,13 @@ Members:
 
 [1].Pintoo Prajapati
 [2].smeet sathavara 
-
+------------------------------------------------------------------------------
 3. 🧰 Tech Stack
----------------------------------------------------------------------------
-Frontend	HTML, CSS, JavaScript, FullCalendar.js
-Backend	        PHP
-Database	     MySQL
-databse interfacr :- phpmyadmin
-Email System	PHPMailer
-Local Server	XAMPP
+Frontend: HTML, CSS, JavaScript, FullCalendar.js  
+Backend: PHP  
+Database: MySQL  
+Email System: PHPMailer  
+Local Server: XAMPP
 ----------------------------------------------------------------------------
 4. 📝 Project Description
 This project is designed for training centers or individual trainers to efficiently manage their daily schedules and client sessions:
@@ -73,7 +71,7 @@ Steps:
 ------------------------------------------------------------------------
 6. 📖 Usage Guide
 🧑 Trainer:
-Register account → verify via email link
+
 
 Login → Create new session
 
@@ -81,7 +79,7 @@ Choose date, time, recurrence (optional)
 
 View session in calendar
 
-Click to edit or start/complete session
+Click to  start/complete session
 
 Email reminder sent before session
 
